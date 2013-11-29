@@ -44,8 +44,8 @@ type repo struct {
 }
 
 type Configuration struct {
-	port int
-	logFile string
+	Port int `json:"port"`
+	LogFile string `json:"logFile"`
 }
 
 func Start(c* Configuration) {
