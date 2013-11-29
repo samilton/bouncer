@@ -4,8 +4,8 @@ package main
 import (
 	"log"
 	"encoding/json"
-	"github.com/samilton/bouncer/daemon"
 	"os"
+	"github.com/samilton/bouncer/engine"
 )
 
 type webhook struct {
@@ -54,12 +54,10 @@ func main() {
 
 	log.Println("Starting Web Bouncer Daemon")
 	if err == nil {
-		var daemon Daemon
-
 		decoder := json.NewDecoder(config)
 		configuration := &Configuration{}
 		decoder.Decode(&configuration)
-		daemon.start()
+		engine.Start(&configuration)
 	} else {
 		panic(err)
 	}
