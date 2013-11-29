@@ -58,7 +58,7 @@ func Start(c* Configuration) {
 	http.Handle("/", mux)
 
 	log.Println("Listening...")
-	http.ListenAndServe(":" + c.Port, nil)
+	http.ListenAndServe(":" + string(c.Port), nil)
 }
 
 func bounce(w http.ResponseWriter, r *http.Request) {

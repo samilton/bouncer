@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/main.go" changelist="5d7b9376-94dc-4991-a373-f092fe6c8966" time="1385753072303" ignored="false" />
     <file path="/go.go" changelist="5d7b9376-94dc-4991-a373-f092fe6c8966" time="1385746931386" ignored="false" />
-    <file path="/daemon.go" changelist="5d7b9376-94dc-4991-a373-f092fe6c8966" time="1385753441128" ignored="false" />
+    <file path="/daemon.go" changelist="5d7b9376-94dc-4991-a373-f092fe6c8966" time="1385753469691" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <file leaf-file-name="engine.go" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/engine/engine.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="33" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.65621233">
+            <state line="60" column="44" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.6743064">
               <folding />
             </state>
           </provider>
@@ -463,7 +463,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/engine/engine.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="33" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.65621233">
+        <state line="60" column="44" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.6743064">
           <folding />
         </state>
       </provider>
