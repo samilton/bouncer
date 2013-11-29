@@ -49,7 +49,6 @@ type Configuration struct {
 }
 
 func Start(c* Configuration) {
-	log.Printf("Config: %s", c)
 	log.Printf("Starting Deamon on Port: %d", c.Port)
 
 	mux := mux.NewRouter()
@@ -58,7 +57,7 @@ func Start(c* Configuration) {
 	http.Handle("/", mux)
 
 	log.Println("Listening...")
-	http.ListenAndServe(":" + string(c.Port), nil)
+	http.ListenAndServe(":" + c.Port, nil)
 }
 
 func bounce(w http.ResponseWriter, r *http.Request) {
