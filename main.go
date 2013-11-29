@@ -43,19 +43,14 @@ type repo struct {
 	Url string `json:"url"`
 }
 
-type Configuration struct {
-	port string
-	logFile string
-}
-
 
 func main() {
-	config, err := os.Open("conf.json")
+	configFile, err := os.Open("conf.json")
 
 	log.Println("Starting Web Bouncer Daemon")
 	if err == nil {
-		decoder := json.NewDecoder(config)
-		configuration := &Configuration{}
+		decoder := json.NewDecoder(configFile)
+		var configuration engine.Configuration
 		decoder.Decode(&configuration)
 		engine.Start(&configuration)
 	} else {
