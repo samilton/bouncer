@@ -72,7 +72,7 @@
       <file leaf-file-name="daemon.go" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/daemon/daemon.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="872" selection-end="872" vertical-scroll-proportion="0.77804583">
+            <state line="74" column="0" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.7104946">
               <folding />
             </state>
           </provider>
@@ -103,8 +103,8 @@
         <option value="$PROJECT_DIR$/src/bouncer/daemon.go" />
         <option value="$PROJECT_DIR$/src/daemon/daemon.go" />
         <option value="$PROJECT_DIR$/src/main.go" />
-        <option value="$PROJECT_DIR$/daemon/daemon.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/daemon/daemon.go" />
       </list>
     </option>
   </component>
@@ -461,7 +461,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/daemon/daemon.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="872" selection-end="872" vertical-scroll-proportion="0.77804583">
+        <state line="74" column="0" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.7104946">
           <folding />
         </state>
       </provider>
