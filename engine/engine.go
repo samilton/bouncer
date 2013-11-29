@@ -44,7 +44,7 @@ type repo struct {
 }
 
 type Configuration struct {
-	port string
+	port int
 	logFile string
 }
 
@@ -57,7 +57,7 @@ func Start(c* Configuration) {
 	http.Handle("/", mux)
 
 	log.Println("Listening...")
-	http.ListenAndServe(c.port, nil)
+	http.ListenAndServe(":" + c.port, nil)
 }
 
 func bounce(w http.ResponseWriter, r *http.Request) {
