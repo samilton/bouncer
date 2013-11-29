@@ -49,7 +49,7 @@ type Configuration struct {
 }
 
 func Start(c Configuration) {
-	log.Printf("%s", string(c))
+	log.Printf("Config: %s", string(c))
 	log.Printf("Starting Deamon on Port: %d", c.port)
 
 	mux := mux.NewRouter()
