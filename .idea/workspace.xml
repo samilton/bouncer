@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/main.go" changelist="5d7b9376-94dc-4991-a373-f092fe6c8966" time="1385753072303" ignored="false" />
     <file path="/go.go" changelist="5d7b9376-94dc-4991-a373-f092fe6c8966" time="1385746931386" ignored="false" />
-    <file path="/daemon.go" changelist="5d7b9376-94dc-4991-a373-f092fe6c8966" time="1385753469691" ignored="false" />
+    <file path="/daemon.go" changelist="5d7b9376-94dc-4991-a373-f092fe6c8966" time="1385753865077" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,16 @@
       <file leaf-file-name="engine.go" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/engine/engine.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="36" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.81905913">
+            <state line="46" column="15" selection-start="930" selection-end="930" vertical-scroll-proportion="0.58383596">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conf.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="17" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,6 +125,7 @@
         <option value="$PROJECT_DIR$/daemon/daemon.go" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/engine/engine.go" />
+        <option value="$PROJECT_DIR$/conf.json" />
       </list>
     </option>
   </component>
@@ -166,20 +176,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bouncer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouncer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouncer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="engine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -477,9 +473,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="17" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/engine/engine.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="36" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.81905913">
+        <state line="46" column="15" selection-start="930" selection-end="930" vertical-scroll-proportion="0.58383596">
           <folding />
         </state>
       </provider>

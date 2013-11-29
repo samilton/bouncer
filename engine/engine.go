@@ -44,7 +44,7 @@ type repo struct {
 }
 
 type Configuration struct {
-	Port int `json:"port"`
+	Port string `json:"port"`
 	LogFile string `json:"logFile"`
 }
 
