@@ -2,8 +2,6 @@
 package main
 
 import (
-	"github.com/gorilla/mux"
-	"net/http"
 	"log"
 	"encoding/json"
 	"github.com/samilton/bouncer/daemon"
@@ -54,6 +52,7 @@ type Configuration struct {
 func main() {
 	config, err := os.Open("conf.json")
 
+	log.Println("Starting Web Bouncer Daemon")
 	if err == nil {
 		var daemon Daemon
 
@@ -66,24 +65,4 @@ func main() {
 	}
 }
 
-func bounce(w http.ResponseWriter, r *http.Request) {
-	log.Println("Handling Home")
-	params := mux.Vars(r)
-	name := params["name"]
-	version := params["version"]
-	w.Write([]byte("Bouncing " + name + "-" + version))
-}
 
-func hook(w http.ResponseWriter, r *http.Request) {
-	decoder := json.NewDecoder(r.Body)
-
-	var t webhook
-
-	err := decoder.Decode(&t)
-
-	if err != nil {
-		panic(err)
-	} else {
-		log.Printf("Configuration change for %s was pushed to Github. Bounce testing application now", t.Repository.Name)
-	}
-}

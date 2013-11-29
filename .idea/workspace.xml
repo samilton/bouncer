@@ -4,7 +4,7 @@
     <list default="true" id="5d7b9376-94dc-4991-a373-f092fe6c8966" name="Default" comment="" />
     <ignored path="bouncer.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/main.go" changelist="5d7b9376-94dc-4991-a373-f092fe6c8966" time="1385747065907" ignored="false" />
+    <file path="/main.go" changelist="5d7b9376-94dc-4991-a373-f092fe6c8966" time="1385752183758" ignored="false" />
     <file path="/go.go" changelist="5d7b9376-94dc-4991-a373-f092fe6c8966" time="1385746931386" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,19 +69,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="daemon.go" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/daemon/daemon.go">
+      <file leaf-file-name="daemon.go" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/daemon/daemon.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="28" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+            <state line="43" column="0" selection-start="872" selection-end="872" vertical-scroll-proportion="0.77804583">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main.go">
+      <file leaf-file-name="main.go" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="33" selection-start="116" selection-end="116" vertical-scroll-proportion="0.14475271">
+            <state line="54" column="44" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,11 +99,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/daemon/go.go" />
         <option value="$PROJECT_DIR$/src/daemon/bouncer.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/daemon.go" />
         <option value="$PROJECT_DIR$/src/bouncer/daemon.go" />
         <option value="$PROJECT_DIR$/src/daemon/daemon.go" />
         <option value="$PROJECT_DIR$/src/main.go" />
+        <option value="$PROJECT_DIR$/daemon/daemon.go" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
@@ -164,24 +165,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bouncer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouncer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bouncer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -469,16 +452,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/daemon/daemon.go">
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+        <state line="54" column="44" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.go">
+    <entry file="file://$PROJECT_DIR$/daemon/daemon.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="116" selection-end="116" vertical-scroll-proportion="0.14475271">
+        <state line="43" column="0" selection-start="872" selection-end="872" vertical-scroll-proportion="0.77804583">
           <folding />
         </state>
       </provider>
