@@ -50,7 +50,7 @@ type Configuration struct {
 
 func Start(c* Configuration) {
 	log.Printf("%s", string(c))
-	log.Printf("Starting Deamon on Port: %s", c.port)
+	log.Printf("Starting Deamon on Port: %d", c.port)
 
 	mux := mux.NewRouter()
 	mux.HandleFunc("/bounce/{name}/{version}", http.HandlerFunc(bounce))
