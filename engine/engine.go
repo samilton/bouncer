@@ -48,7 +48,7 @@ type Configuration struct {
 	LogFile string `json:"logFile"`
 }
 
-func Start(c* Configuration) {
+func Start(c Configuration) {
 	log.Printf("%s", string(c))
 	log.Printf("Starting Deamon on Port: %d", c.port)
 
