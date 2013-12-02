@@ -75,7 +75,7 @@ func bounce(w http.ResponseWriter, r *http.Request) {
 	i.Version = params["version"]
 	i.Type = params["type"]
 
-	w.Write([]byte("Bouncing " + name + ":" + version + "type" ))
+	w.Write([]byte("Bouncing " + i.Name + "Version: " + i.Type + " " i.Type ))
 }
 
 func hook(w http.ResponseWriter, r *http.Request) {
