@@ -69,11 +69,11 @@ func Start(c* Configuration) {
 func bounce(w http.ResponseWriter, r *http.Request) {
 	log.Println("Handling Home")
 	params := mux.Vars(r)
-	var instance Instance
+	var i instance
 
-	instance.Name = params["name"]
-	instance.Version = params["version"]
-	instance.Type = params["type"]
+	i.Name = params["name"]
+	i.Version = params["version"]
+	i.Type = params["type"]
 
 	w.Write([]byte("Bouncing " + name + ":" + version + "type" ))
 }
