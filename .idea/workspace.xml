@@ -78,7 +78,7 @@
       <file leaf-file-name="engine.go" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/engine/engine.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="7" selection-start="1983" selection-end="1983" vertical-scroll-proportion="0.8717949">
+            <state line="93" column="0" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.8397436">
               <folding />
             </state>
           </provider>
@@ -506,7 +506,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/engine/engine.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="7" selection-start="1983" selection-end="1983" vertical-scroll-proportion="0.8717949">
+        <state line="93" column="0" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.8397436">
           <folding />
         </state>
       </provider>

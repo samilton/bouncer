@@ -92,6 +92,3 @@ func hook(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func doBounce()  {
-	nil
-}
